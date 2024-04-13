@@ -9,7 +9,8 @@
   <body>
     <main>
       <form action="/submit">
-        <section>
+        <h1>FORM</h1>
+        <div>
           <label for="full-name" name="name">Name:</label>
           <input
             type="text"
@@ -17,8 +18,8 @@
             name="name"
             placeholder="Full Name"
           />
-        </section>
-        <section>
+        </div>
+        <div>
           <label for="email" name="email">Email:</label>
           <input
             type="text"
@@ -26,8 +27,46 @@
             name="email"
             placeholder="name@pdx.edu"
           />
-        </section>
+        </div>
         
+        <br>
+        
+        <fieldset>
+          <legend>Favorite Character:</legend>
+          <div>
+            <input type="radio" name="character" id="spongebob" value="spongebob">
+            <label for="spongebob">Spongebob</label>
+          </div>
+          <div>
+            <input type="radio" name="character" id="sandy" value="sandy">
+            <label for="sandy">Sandy</label>
+          </div>
+          <div>
+            <input type="radio" name="character" id="patrick" value="patric">
+            <label for="patrick">Patrick</label>
+          </div>
+        </fieldset>
+
+        <br>
+
+          <fieldset>
+            <legend>Are you a fan of the show?</legend>
+            <div>
+              <input type="checkbox" name="fan" id="episodes" value="episodes">
+              <label for="episodes">Yes, I have watched all episodes!</label>
+            </div>
+            <div>
+              <input type="checkbox" name="fan" id="memes" value="memes">
+              <label for="memes">Yes, it's got the best memes.</label>
+            </div>
+          </fieldset>
+
+          <br>
+
+          <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
       </form>
     </main>
   </body>
