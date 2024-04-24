@@ -2,3 +2,11 @@
   width: 600px;
   margin: 40px auto;
 }
+
+p:hover {
+  background-color: lavender;
+}
+
+p::first-letter {
+  font-size: 3em;
+}

@@ -11,7 +11,11 @@
 /* Use attribute selectors for the first part of the exercise */
 
 li[class~="dog"] {
-  color: var(--magenta);
+  color: var(--royalblue);
+}
+
+li[class$="og"] {
+  color: var(--violet);
 }
 
 li[id="cat"] {
@@ -20,10 +24,6 @@ li[id="cat"] {
 
 li[class*="do"] {
   color: var(--royalblue);
-}
-
-li[class$="g"] {
-  color: var(--violet);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
