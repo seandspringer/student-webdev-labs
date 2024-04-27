@@ -3,10 +3,10 @@
   margin: 40px auto;
 }
 
-p:hover {
-  background-color: lavender;
+.paragraph::first-letter {
+  font-size: 3em;
 }
 
-p::first-letter {
-  font-size: 3em;
+.paragraph:hover {
+  background-color: var(--lavender);
 }
