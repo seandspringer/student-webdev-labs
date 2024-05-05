@@ -31,3 +31,24 @@
 2. I really found the 06-media queries problem to be an excellent review of the entire chapter. It touched on every idea talked about in this section and demonstrated how to think and apply this type of problem to an actual page. The other excercies where helpful in building up to that last exercise.
 3. The display: inline-blox property is still a bit mysterious to me in what it properties are block-like and what specific properties are inline-like. Also, sharing any tricks or rules-of-thumb of when to target an element/attribute very specifically vs when to move a particular rule down in the css list would be helpful.
 4. Perhaps examples using some of the more complicated / function-like psuedo-classes or psuedo-elements
+
+### 04 Flexbox
+
+1. It took me some time playing around with all of the flex options to understand the difference between some of the reverse terminologies, but otherwise I got there basically on my own.
+2. I feel they were helpful for the basics, but I would have liked to had a more complicated exercise that involved setting actual html elements rather than just boxes.
+3. The space-evenly vs space-around justify-content differences aren't obvious to me. Also, how does flex work within a complete page? If I wanted to build a standard page with header, main, footer, and 2 side bars, would the entire page be one flex container?
+4. I think an application excerice would have been nice. Maybe something with a header, main, aside, and footer. This would help to understand how flex flows for common layout schemes
+
+### 05 CSS-Grid
+
+1. Grid layout makes much more sense to be than flexbox and so the only thing I needed to lookup was the logic for using the grid-template-areas alignment scheme.
+2. I think this set of exercises nailed the content very well. The power and simplicity of grid really shines through in these exercises.
+3. Perhaps details on aligning objects inside of a grid-item? For example, text centering inside a grid-item box would be helpful.
+4. Other than what was mentioned above, I really enjoyed and learned a lot form the css-grid exercises!
+
+### 06 Bootstrap
+
+1. I needed to look up the cards and modal information from https://getbootstrap.com, mostly for syntax and available class names and meaning.
+2. It was very helpful. I would have liked to have had a navigation bar example because that flexibility is really impressive!
+3. There is just so many options and properties and class names that bootstrap feels overwhelming. I understand that one would likely approach this on a "as-needed" basis so memorizing componenets is not necessary. But most of the examples in the docs.don't explain what certain properties do or don't do and why they should be included, etc. I feel intimated by bootstrap at the moment.
+4. The icon and font information from lecture / slides felt a bit rushed and perhaps some experience with these topics would have helped to cement their application; otherwise the exercises touched upon basically all other concepts from the lecture.
