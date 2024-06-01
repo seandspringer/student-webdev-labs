@@ -1,3 +1,6 @@
+### Sean Springer<br>CS 563<br>6/1/2024
+
+
 ## Reflection Document
 
 **Include complete answeres to the following**
@@ -9,20 +12,21 @@
 
 # Remember: Do This For Each SECTION (8 total)
 
-**====================================**
+
+
 
 ### 01 HTML
 
-1. Outside of glancing at the table example to remember the exact tag names, I was able to complete these exercises on my own. I'm still getting used to all the <input> and <label> tag syntax so I looked at the lecture slides to remind myself which attribute gets the for and which gets the id attribute (label gets the for).
+1. Outside of glancing at the table example to remember the exact tag names, I was able to complete these exercises on my own. I'm still getting used to all the `<input>` and `<label>` tag syntax so I looked at the lecture slides to remind myself which attribute gets the for and which gets the id attribute (label gets the for).
 2. I found these very helpful because they utilized all of the different tags that were presented in class.
 3. I'm still not 100% about how detailed to get in an images alt attribute. Should we explain the image in great detail or just provide a quick cursory explanation? Also, the example slides showed using leading phrases like "image of" prior to the detailed explanation of the image, however when I WAVE'd the page, it flagged this preceeding phrase as an error stating that it is redundant because most text readers will automatically include that language in the reading.
-4. I'm interested to undertand how to handle the actions that occur after pressing an <input type="submit"> button. I see how it populates the url with the name=value components seperated by & however how does one determine where to send this information and how can we use HTML to parse these inputs?
+4. I'm interested to undertand how to handle the actions that occur after pressing an `<input type="submit">` button. I see how it populates the url with the name=value components seperated by & however how does one determine where to send this information and how can we use HTML to parse these inputs?
 
 ### 02 Accessibility
 
 1. I completed this exercise on my own, however after reviewing the solutions I realized that I had forgotten to include the value attribute in the radio buttons!
 2. These exercises were helpful in reinforcing the basics. I would have liked to understand the aria-attributes better and maybe an example would help with that. Also, using WAVE to help guide the corrections was very helpful!
-3. One thing I'm still a bit unsure about is when you need to define the value attribute. In this example, the <input type=text> does not require a value because the value appears to come from the input text. However, the radio buttons require a value I guess because the <label> name tied to that button does not automatically relate. Generic rules to help remember when to use value would be helpful in my oppinion.
+3. One thing I'm still a bit unsure about is when you need to define the value attribute. In this example, the `<input type=text>` does not require a value because the value appears to come from the input text. However, the radio buttons require a value I guess because the `<label>` name tied to that button does not automatically relate. Generic rules to help remember when to use value would be helpful in my oppinion.
 4. Using the aria attributes like aria-expanded and aria-haspopup in examples would be helpful because I still do not understand when to use these specific attributes.
 
 ### 03 CSS
@@ -59,3 +63,10 @@
 2. The exercises did a good job of jumping around all of the basic JS space. I particularly liked the functional problems becuase they were challenging but also felt rewarding in how much elaborate work could be done in so easily.
 3. My big question is with the fetch and the async structure. Is there any other way to store the results of an async operation to a variable other than using a global variable? For example, is there a way to assign to the results of a function that deals with asyn promises? I could not figure out any way to do this. Also, when using global variables to store fetch results, what can I do to ensure that the promise has been fulfilled (i.e. the global variable has the requested JSON data) BEFORE allowing the user to potentially interact with the data? If I have a long query, I wanted to ensure that my results have been fetched before the user presses some button to inderact with the data, for example.
 4. An exercising practicing a PUT would be helpful because it would enforce how to build that options object and all the required attributes that are needed in order to create a sufficient post. I'm also interested in how to build an HTTP response to say a GET for example and how to fill the header and body fields of that response.
+
+### 08 JQuery
+
+1. I didn't quite get all the JQuery function chaining opportunities the first try. I still had a tendency to define a variable like `let var = $("div")` and then operate on the `<div>` element. The chaining adds confusion in my oppinion, but I understand that it's an important part of the JQuery infrastructure. Some of the function calls I needed to google and I originally went with `$.get(...)` shorthand rather than the `$.ajax(...)` but adjusted it back when I saw the solution.
+2. All of the exercises were helpful in becoming familiar with commonly used JQuery methods and the overall power of their function chaining. The AJAX was particularly interesting in the depth of JQuery utilized.
+3. The inner workings of JQuery would have been so much fun to learn about. I also am unsure about what other methods are available for the `$(document)` object besides the `.ready()` method. Do other methods exist to help guide page functionality?
+4. We didn't do a lot of fancy selector operations like `.siblings()`, `.parents()`, and `.find()` which may have been useful practice. Otherwise I think JQuery was very well presented.
