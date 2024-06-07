@@ -7,37 +7,44 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <h1>01 - Form</h1>
-    <form action="/submit">
-      <div>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" />
-      </div>
+    <main>
+      <h1>01 - Form</h1>
+      <form action="/submit">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <div>
-        <label for="email"> Email</label>
-        <input type="text" id="email" name="email" />
-      </div>
+        <div>
+          <label for="email"> Email</label>
+          <input type="text" id="email" name="email" />
+        </div>
 
-      <br /><br />
+        <br /><br />
 
-      <fieldset>
-        <legend>Favorite Character</legend>
-        <input type="radio" id="spongebob" name="character" value="spongebob" />
-        <label for="spongebob">Spongebob</label>
+        <fieldset>
+          <legend>Favorite Character</legend>
+          <input
+            type="radio"
+            id="spongebob"
+            name="character"
+            value="spongebob"
+          />
+          <label for="spongebob">Spongebob</label>
 
-        <input type="radio" id="patrick" name="character" value="patrick" />
-        <label for="patrick">Patrick</label>
+          <input type="radio" id="patrick" name="character" value="patrick" />
+          <label for="patrick">Patrick</label>
 
-        <input type="radio" id="sandy" name="character" value="sandy" />
-        <label for="sandy">Sandy</label>
-      </fieldset>
+          <input type="radio" id="sandy" name="character" value="sandy" />
+          <label for="sandy">Sandy</label>
+        </fieldset>
 
-      <br />
+        <br />
 
-      <input type="submit" value="Submit" />
-    </form>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
   </body>
 </html>

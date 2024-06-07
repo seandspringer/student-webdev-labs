@@ -1,6 +1,5 @@
 ### Sean Springer<br>CS 563<br>6/1/2024
 
-
 ## Reflection Document
 
 **Include complete answeres to the following**
@@ -11,9 +10,6 @@
 4. Were there other exercises that might have helped you learn this week's topic a little better?
 
 # Remember: Do This For Each SECTION (8 total)
-
-
-
 
 ### 01 HTML
 
@@ -35,6 +31,7 @@
 2. I really found the 06-media queries problem to be an excellent review of the entire chapter. It touched on every idea talked about in this section and demonstrated how to think and apply this type of problem to an actual page. The other excercies where helpful in building up to that last exercise.
 3. The display: inline-blox property is still a bit mysterious to me in what it properties are block-like and what specific properties are inline-like. Also, sharing any tricks or rules-of-thumb of when to target an element/attribute very specifically vs when to move a particular rule down in the css list would be helpful.
 4. Perhaps examples using some of the more complicated / function-like psuedo-classes or psuedo-elements
+5. Note - WAVE reported contrast errors due to some of the text colors. I choose not to change the text color due to the nature of the assignment and thus the 2 contrast errors remain.
 
 ### 04 Flexbox
 
