@@ -1,21 +1,21 @@
-const url = 'https://anapioficeandfire.com/api/books/';
+const url = "https://anapioficeandfire.com/api/books/";
 
-const app = document.querySelector('#books');
+const app = document.querySelector("#books");
 app.style.paddingLeft = 0;
-const loading = document.querySelector('#loading');
+const loading = document.querySelector("#loading");
 
 const addBookToDOM = (item) => {
   console.log(item);
-  let element = document.createElement('div');
-  let title = document.createElement('h4');
-  let author = document.createElement('p');
-  let published = document.createElement('p');
-  let pages = document.createElement('p');
+  let element = document.createElement("div");
+  let title = document.createElement("h4");
+  let author = document.createElement("p");
+  let published = document.createElement("p");
+  let pages = document.createElement("p");
 
-  element.style.display = 'flex';
-  element.style.flexDirection = 'column';
-  element.style.alignItems = 'center';
-  element.style.marginTop = '20px';
+  element.style.display = "flex";
+  element.style.flexDirection = "column";
+  element.style.alignItems = "center";
+  element.style.marginTop = "20px";
 
   title.textContent = item.name;
   author.textContent = `by ${item.authors[0]}`;
@@ -42,7 +42,7 @@ const fetchData = (url) => {
     })
     .catch((error) => {
       console.log(error);
-      let div = document.createElement('div');
+      let div = document.createElement("div");
       div.textContent = `An error occurred. Please try again.`;
       app.append(div);
     })

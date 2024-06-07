@@ -18,7 +18,7 @@ const lookupItem = (key) => {
   if (result.hasOwnProperty(key)) {
     return result[key];
   }
-  
+
   return "Item does not exist";
 };
 
